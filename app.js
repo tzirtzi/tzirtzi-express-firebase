@@ -9,8 +9,8 @@ const corsHeaders = require('./api/middleware/cors'); // custom implementation
 const notFound = require('./api/middleware/notFound');
 const errorHandling = require('./api/middleware/errorHandling');
 
-const serviceAccountConfig = require('./njection-plan-firebase-adminsdk-serviceaccnt.json');
-const fireInit = require('./api/data/firebaseConnect')(serviceAccountConfig);
+const serviceAccountConfig = require('./njection-firebase-serviceaccnt.json');
+const fireInit = require('./api/services/firebaseConnect')(serviceAccountConfig);
 
 const routerOutlet = require('./api/routes/routerOutlet');
 

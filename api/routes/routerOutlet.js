@@ -15,6 +15,7 @@ const router = express.Router();
     router.use('/api/upload', uploadRoutes);
 
     /// custom routing handled here ///////////////////////
+    // this will handle /api/data/v1/users/12 or /api/data/v1/bookings requests
     router.use('/api/data/v1', defaultRoutes);
 
 module.exports = router;
