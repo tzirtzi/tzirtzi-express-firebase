@@ -1,0 +1,19 @@
+{
+    "restartable": "rs",
+    "igonre": [
+        "node_modules/**/node_modules"
+    ],
+    "delay": "1500",
+    "env": {
+        "ENVIRONMENT": "dev",
+        "PORT": 3000,
+        "MONGO_INITDB_ROOT_USERNAME": "root",
+        "MONGO_INITDB_ROOT_PASSWORD": "example",
+        "MONGO_CONNECTION_URI": "mongodb://root:example@localhost:27017",
+        "MONGO_DB_NAME": "ThundeRest5Test",
+        "ALLOW_ORIGIN": "*",
+        "ALLOW_HEADERS": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+        "ALLOW_METHODS": "PUT, POST, PATCH, DELETE, GET",
+        "JWT_KEY": "jhadvpopi8245sgg35ryt350ijqf3jq349n32-9824"
+    }
+}

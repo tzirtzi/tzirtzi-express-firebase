@@ -1,0 +1,27 @@
+{
+  "name": "backup-fire-automation",
+  "version": "1.0.0",
+  "description": "A gcloud command automation project through a rest exposed backend that integrates the gcloud commands with exec() calls",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tzirtzi75",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.11.1",
+    "formidable": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "debug": "^2.6.9",
+    "nodemon": "^2.0.12"
+  }
+}
